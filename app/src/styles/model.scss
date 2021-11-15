@@ -1,0 +1,42 @@
+@import "_colors.scss";
+
+.modelCont {
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+
+    .modelLeft {
+        margin-right: 4em;
+        .modelUploadCont {
+            h3 {
+                margin-bottom: 0.5em;
+            }
+            .displayImage {
+                margin-top: 1em;
+                width: 256px;
+                object-fit: contain;
+            }
+        }
+        .identifyButton {
+            padding: 0.5em 0.75em;
+            margin-top: 0.5em;
+            font-size: 12pt;
+            background: $grey-1;
+            border: 1px solid $grey-2;
+            border-radius: 3px;
+        }
+    }
+    .guess {
+        padding: 2em;
+        width: 300px;
+        border: 1px solid $grey-1;
+        border-radius: 4px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        text-align: center;
+
+        h2 {
+            text-transform: capitalize;
+            margin-bottom: 0.5em;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+@import "_colors.scss";
+
+body {
+    padding: 4em;
+    min-height: 100vh;
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+#root {
+    // max-width: 800px;
+    width: 100%;
+}
+.app {
+    // max-width: 800px;
+    width: 100%;
+
+    .dropdowns {
+        // background: $grey-1;
+        width: 100%;
+        padding: 1.5em;
+
+        display: flex;
+        justify-content: center;
+
+        div {
+            margin: 0 1em;
+            h4 {
+                margin-bottom: 0.5em;
+            }
+            select {
+                padding: 0.75em 0.5em;
+                border-radius: 3px;
+                &.select {
+                    font-style: italic;
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
+
+.gh {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    opacity: 0.7;
+    padding: 0.5rem;
+    color: #1d1b1d;
+
+    svg {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    &:hover {
+        opacity: 1;
+    }
+}
