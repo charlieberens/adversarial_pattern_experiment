@@ -10,9 +10,9 @@ class App extends Component {
         this.state = {
             models: [
                 {
-                    name: "Reinforced Full",
-                    id: "reinforced_full",
-                    epochs: [30],
+                    name: "Not Augmente",
+                    id: "not_augmented",
+                    epochs: [64],
                 },
             ],
         };
